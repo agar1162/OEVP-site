@@ -8,6 +8,17 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#geo,#blocks{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+#blocks ul li {
+  font-size: 16px;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
