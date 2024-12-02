@@ -6,7 +6,7 @@ export default function Navbar() {
     
 
     return (
-        <nav className="flex flex-row bg-[#003A70] text-white" style={{height:'97px'}}>
+        <nav className="flex flex-row bg-red-500 text-white" style={{height:'97px'}}>
             <a className="basis-1/6  flex justify-center items-center ">
                 <img style={{ width: '90px', height: '90px' }} className="mr-2" src={logoref} alt="Logo" />
             </a>
