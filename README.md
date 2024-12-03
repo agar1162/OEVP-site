@@ -5,5 +5,5 @@
 2. cd OEVP-site
 3. ```git pull ```
 4. Copy new out into public_html:
-```cp -r out/* ../public_html
+```cp -r out/* ../public_html```
 
