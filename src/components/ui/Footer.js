@@ -47,8 +47,8 @@ export default function Footer(){
                         </ul>
                     </div>
                 </div>
+               <div className="h-[10px] w-[6rem]"> <a href="https://www.ocf.berkeley.edu/"><img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg"/></a></div>
             </div>
-            
         </footer>
     );
 }
