@@ -8,11 +8,15 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+#gradient-text {
+  background: linear-gradient(90deg, #003A70 40.5%, #003A70 42.99%, #F9B315 43%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
+
+
 #geo,#blocks{
-  font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
 }
 
