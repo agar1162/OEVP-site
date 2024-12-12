@@ -12,27 +12,27 @@ export default function Navbar() {
             </a>
             <ul className="basis-2/3  flex flex-row justify-center text-white self-center">
                 <li className="p-8 text-2xl text-gray-800 flex items-center text-white">
-                    <a className="flex items-center" style={{fontSize:20, fontWeight: 'Bold'}}>
+                    <a href="https://www.facebook.com/evpmelvintangonan/" className="flex items-center" style={{fontSize:20, fontWeight: 'Bold'}}>
                         Home
                     </a>
                 </li>
                 <li className="p-8 text-2xl text-gray-800 flex items-center text-white">
-                    <a className="flex items-center" style={{fontSize:20, fontWeight: 'Bold'}}>
+                    <a href="https://twitter.com/asucevp"className="flex items-center" style={{fontSize:20, fontWeight: 'Bold'}}>
                         Departments
                     </a>
                 </li>
                 <li className="p-8 text-2xl text-gray-800 flex items-center text-white">
-                    <a className="flex items-center" style={{fontSize:20, fontWeight: 'Bold'}}>
+                    <a href="https://www.instagram.com/asuceavp/" className="flex items-center" style={{fontSize:20, fontWeight: 'Bold'}}>
                         Free Resources
                     </a>
                 </li>
                 <li className="p-8 text-2xl text-gray-800 flex items-center text-white">
-                    <a className="flex items-center" style={{fontSize:20, fontWeight: 'Bold'}}>
+                    <a href="https://www.instagram.com/ucbvicepresident/" className="flex items-center" style={{fontSize:20, fontWeight: 'Bold'}}>
                         Our Impact
                     </a>
                 </li>
                 <li className="p-8 text-2xl text-gray-800 flex items-center">
-                    <a className="flex items-center text-white" style={{fontSize:20, fontWeight: 'Bold'}}>
+                    <a href="https://studentunion.berkeley.edu/" className="flex items-center text-white" style={{fontSize:20, fontWeight: 'Bold'}}>
                         Offices
                     </a>
                 </li>
