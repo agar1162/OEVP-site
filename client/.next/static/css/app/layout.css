@@ -561,6 +561,9 @@ video {
 .m-12 {
   margin: 3rem;
 }
+.ml-3 {
+  margin-left: 0.75rem;
+}
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -655,6 +658,10 @@ video {
 .bg-\[\#003A70\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 58 112 / var(--tw-bg-opacity));
+}
+.bg-\[\#F9B315\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 179 21 / var(--tw-bg-opacity));
 }
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));

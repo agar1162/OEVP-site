@@ -1,5 +1,9 @@
+'use client'
+import { useState } from 'react'
+
 
 export default function Footer(){
+    
     return(
         <footer className="bg-[#003A70] h-[30rem] flex flex-row">
             <a className="basis-1/4 grid place-content-center"><img src="ASUC-logo.png" height='200px' width='200px' alt="logo"/></a>
@@ -11,6 +15,7 @@ export default function Footer(){
                     placeholder="Enter Email"
                     type="text"
                     className="rounded-md p-3 w-fit"
+
                 />
                 </div>
             </div>
