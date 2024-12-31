@@ -1,8 +1,9 @@
-import Navbar from "../components/ui/Navbar";
-import Cover from "../components/ui/Cover";
-import Stats from "../components/ui/Stats";
-import Subscription from "../components/ui/Subscription";
-import Footer from "../components/ui/Footer";
+import Navbar from "../components/home/Navbar";
+import Cover from "../components/home/Cover";
+import Stats from "../components/home/Stats";
+import Subscription from "../components/home/Subscription";
+import Footer from "../components/home/Footer";
+import Wedo from "../components/home/Wedo"
 import "./globals.css";
 
 
@@ -12,6 +13,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Cover />
+      <Wedo />
       <Stats />
       <Subscription />
       <Footer />
