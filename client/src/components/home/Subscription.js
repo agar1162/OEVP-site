@@ -1,9 +1,10 @@
 
 
 
-var times = "https://s3-alpha-sig.figma.com/img/73de/70f1/d17c1303802d1491aff7acafa795b6f0?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Z4a7qWfofpbmUXJCKhN-UG-EAAohNYIGemU4Xovv-3Pv3sx9IUbZfPDiHZTzu3f33dFOZt7JeCVvJdoVlJkIGuFcHw8BGpmLOue32j9wxhciioQJLY0m35rm9ugcpZXBCJe-g2WMw4Z3wtoK~GMvKDxOsRmOJ8Sxy~N~TpXFQ-l5b2eOx49hi4OW7k-LCLhaeJJW66BVvWyDkLdvFMi-mnyZWo6P9w-uqaWu9mp7Xj4YsVdGm91Op9q5YB5~TtwxtJwgN4oCUJNZXWFu9HuuMULTns8njRbGXEZOOLWlP7x-0rd8wj73u0T8cntORl8kMRgYhUZCeqQ1zxUdRISPdw__"
-var wsj = "https://s3-alpha-sig.figma.com/img/c47f/a7ef/7a1d933f6b06c3300702a04f76f66344?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GLV-y7Z8cNyIGelh~B2snHHX7Xf6b1IGp-dHqwcuC7Cr7CA92J9lEG5semwr~fliEXq6Ekq6~OackpwR3NJGgWWLAuUJaXXOn1YEKGiCywX-vs8YbfjtN0JwIzGu9ybOKZzhIZ4TOb4FF3OaOWh5TqmoYkF307XLOHU0lfkEizXE~b8NUB9fwvFXWK49H4124MkV8Fon5c7v-gnJGWGRmDdf2O74tUSxaS6MpQwzu5Nf1KgHa8LKuQ2gcbu31z7Yv~cES61slwCfwxyt1O-uQXa069sa-zpuss2uUdkW9gmWgpi5S2SraBa4K7NgGkyREmJDtCaJko7~E4DPYuo7mA__"
-var def = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+const times = "/nyt.png"
+const wsj = "/wsj.png"
+const def = "Get free access to a variety of New York Times articles, games, and podcasts if you are an undergraduate or graduate student. "
+
 export default function Subscription() {
     return(
       <div className="h-[319px] flex bg-gradient-to-r from-[#FFD67A] to-[#F9B315]">

@@ -5,6 +5,7 @@ import Subscription from "../components/home/Subscription";
 import Footer from "../components/home/Footer";
 import Wedo from "../components/home/Wedo"
 import "./globals.css";
+import OrgStats from "../components/home/OrgStats";
 
 
 
@@ -14,10 +15,11 @@ export default function Home() {
       <Navbar />
       <Cover />
       <Wedo />
-      <Stats />
+      <OrgStats/>
       <Subscription />
+      <Stats />
       <Footer />
-      
+
     </div>
   );
 }

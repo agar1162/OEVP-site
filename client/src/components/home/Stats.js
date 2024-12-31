@@ -2,7 +2,7 @@ export default function Stats() {
     return (
         <div className="flex h-[319px]">
             <div className="flex-1 flex flex-col items-center justify-center">
-                <h1 id="gradient-text" className="gradient-text text-[56px] font-bold">4000+</h1>
+                <h1 id="gradient-text" className="bg-[#003A70] text-[56px] font-bold">4000+</h1>
                 <p>Clubs Sponsored</p>
             </div>
             <div className="flex-1 flex flex-col items-center justify-center">

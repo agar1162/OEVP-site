@@ -15,7 +15,7 @@ export default function Navbar() {
 
     return (
         <nav className="flex flex-row bg-[#003A70] text-white" style={{height:'100px'}}>
-            <a className="basis-1/6 flex justify-center items-center">
+            <a href="/" className="basis-1/6 flex justify-center items-center">
                 <img
                         src={logoref}
                         alt="Logo"
