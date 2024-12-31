@@ -2,12 +2,8 @@ var img = "public/scope.png"
 
 export default function search() {
     return(
-        <input
-            className="rounded-md"
-            style={{fontSize: 19.5, width: '280.495px', height: '49px', padding:10}}
-            type="text"
-            placeholder="Search..."
-        />
-
+        <>
+            <img src="\mag.svg" style={{filter: "brightness(1000%)"}}alt="mag" className="w-[4vh] h-[4vh]"/>
+        </>
     );
 }
