@@ -1,34 +1,34 @@
-const express = require("express");
-const app = express();
+// const express = require("express");
+// const app = express();
 
-const PORT = 8080
+// const PORT = 8080
 
-app.get("/", (req, res) => {
-    res.send("Hello")
-})
+// app.get("/", (req, res) => {
+//     res.send("Hello")
+// })
 
-app.post("/p", (req, res) => {
-    res.send({message: "Bruh"})
-})
-
-
-app.listen(PORT, () => {
-    console.log(`Listening at port: ${PORT}`)
-})
+// app.post("/p", (req, res) => {
+//     res.send({message: "Bruh"})
+// })
 
 
-
-// const cors = require("cors")
+// app.listen(PORT, () => {
+//     console.log(`Listening at port: ${PORT}`)
+// })
 
 
 
-// app.use(cors())
+// // const cors = require("cors")
 
-// app.get("/api/home", (req, res) => {
-//     res.json({message: "Hello World"})
-// });
+
+
+// // app.use(cors())
+
+// // app.get("/api/home", (req, res) => {
+// //     res.json({message: "Hello World"})
+// // });
 
  
-// app.listen(PORT, () => {
-//     console.log(`Sever Started on port ${PORT}`)
-// })
+// // app.listen(PORT, () => {
+// //     console.log(`Sever Started on port ${PORT}`)
+// // })
